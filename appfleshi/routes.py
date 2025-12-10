@@ -6,7 +6,6 @@ from appfleshi.models import User, Photo
 import os
 from werkzeug.utils import secure_filename
 
-
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
     login_form = LoginForm()
